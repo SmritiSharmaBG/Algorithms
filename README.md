@@ -1,2 +1,10 @@
 # Algorithms
-Standard problems of various algorithmic techniques 
+
+This repo contains standard problems of various topics related to Algorithms.
+
+Time and Space Complexities (along with explanation) of each solution can be found in commits.
+
+Codes are cleans, properly formatted and pass all the testcases.
+
+Topics Covered : 
+1. Recursion
