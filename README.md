@@ -8,3 +8,4 @@ Codes are cleans, properly formatted and pass all the testcases.
 
 Topics Covered : 
 1. Recursion
+2. Searching and Sorting
