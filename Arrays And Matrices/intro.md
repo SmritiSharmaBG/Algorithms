@@ -1,4 +1,5 @@
 # Arrays & Matrices in Java.
+
 An array is a vector with one or more dimensions.
 Usually, arrays can have maximum of 3 dimensions.
 A **one dimensional** array is declared as arr[] with 0-based indexing.
