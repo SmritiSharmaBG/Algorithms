@@ -1,6 +1,6 @@
 class Solution
 { 
-  //  return the sum of minimum and maximum element in the array.
+  //  return the sum of minimum and maximum element in the array IN MINIMUM POSSIBLE COMPARISIONS.
     public static int findSum(int A[],int N) 
     {
         if (N < 2) return (2 * A[0]);
