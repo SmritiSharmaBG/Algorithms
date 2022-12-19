@@ -45,12 +45,10 @@ sort according to their position in the original array i.e., a stable sort.
     static class Num implements Comparable<Num>{
         int setBit = 0;
         int num = 0;
-        boolean isPresent = false;
         
         Num(int s, int n) {
             this.setBit = s;
             this.num = n;
-            this.isPresent = true;
         }
         
         @Override
