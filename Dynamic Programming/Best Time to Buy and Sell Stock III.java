@@ -51,6 +51,7 @@ class Solution {
             return 0;
         }
 
+        // only 2 conditions needed. Like index, we dont need to put condition on trans. 
         if (canBuy && trans == 0 && memo[index][0][0] != null) return memo[index][0][0];
         if (canBuy && trans == 1 && memo[index][0][1] != null) return memo[index][0][1];
         if (!canBuy && trans == 0 && memo[index][1][0] != null) return memo[index][1][0];
