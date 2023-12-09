@@ -38,8 +38,9 @@ class Solution {
                     }
                 }
             }
+            // add minute only when something in future will get rotten.
             if (!queue.isEmpty()) min ++;
-
+            // started with already rotten oranges.
         }
 
         // if any fresh orange is left, return -1
