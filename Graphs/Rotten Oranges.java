@@ -20,12 +20,11 @@ class Solution {
         int[] moveH = {0, 1, 0, -1};
         int[] moveV = {-1, 0, 1, 0};
 
-        int min = -1;
+        int min = 0;
 
         // Do a BFS traversal
         while (!queue.isEmpty()) {
             int levelSize = queue.size();
-            min ++;
             for (int l = 0; l < levelSize; l ++) {
                 Cell rottenOrange = queue.remove();
                 for (int i = 0; i < 4; i ++) {
@@ -39,6 +38,8 @@ class Solution {
                     }
                 }
             }
+            if (!queue.isEmpty()) min ++;
+
         }
 
         // if any fresh orange is left, return -1
@@ -52,7 +53,7 @@ class Solution {
             }
         }
 
-        return min == -1 ? 0 : min;
+        return min;
 
     }
 
